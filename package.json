@@ -1,0 +1,17 @@
+{
+  "name": "helium-validator-version-watcher",
+  "version": "1.0.0",
+  "description": "This fetches helium version and pushes to pushbullet when new version arises",
+  "main": "index.js",
+  "scripts": {
+    "start": "node scrape.js"
+  },
+  "author": "Adrian Chrysanthou",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.1",
+    "moment": "^2.29.1",
+    "puppeteer": "^10.1.0",
+    "pushbullet": "^2.4.0"
+  }
+}
