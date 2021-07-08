@@ -7,7 +7,7 @@ const error = chalk.bold.red;
 const success = chalk.keyword("green");
 
 // Push Bullet 
-const PUSHBULLET_TOKEN = 'o.T16HtwhOBZigduzWSChtLMkWdw7m8mhA';
+const PUSHBULLET_TOKEN = '';
 const PUSHBULLET_CHANNEL = '';
 
 // Fetch api page
@@ -19,7 +19,7 @@ let scrape = async () => {
     const request = require('request');
 
     // Place your validator address here
-    const validatoraddress = '112E9fj7K9P4N4fRnMYjeFVSdFZsdJ9eSS139cmqdCn8L8qKHcc1'
+    const validatoraddress = ''
 
     let url = 'https://api.helium.io/v1/validators/'+validatoraddress;
 
