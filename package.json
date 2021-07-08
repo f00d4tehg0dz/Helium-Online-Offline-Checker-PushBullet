@@ -1,17 +1,17 @@
 {
-  "name": "helium-validator-version-watcher",
+  "name": "helium-validator-offline-watcher",
   "version": "1.0.0",
-  "description": "This fetches helium version and pushes to pushbullet when new version arises",
+  "description": "This fetches helium online status and pushes to pushbullet if it goes offline",
   "main": "index.js",
   "scripts": {
     "start": "node scrape.js"
   },
-  "author": "Adrian Chrysanthou",
+  "author": "f00d4tehg0dz",
   "license": "ISC",
   "dependencies": {
     "chalk": "^4.1.1",
     "moment": "^2.29.1",
-    "puppeteer": "^10.1.0",
-    "pushbullet": "^2.4.0"
+    "pushbullet": "^2.4.0",
+    "request": "^2.88.2"
   }
 }
